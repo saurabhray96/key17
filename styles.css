@@ -1,0 +1,27 @@
+#search {
+    border-color: red;
+    animation: rotateBorder 3s infinite linear;
+    /* Adjust animation duration and timing function as needed */
+}
+
+body {
+    background-color: rgb(0, 81, 255);
+}
+
+/* Define keyframes for rotation */
+@keyframes rotateBorder {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#searchText {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 1px black);
+}
